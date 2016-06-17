@@ -29,36 +29,44 @@
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;#### CoffeScript
-&lt;code class=&quot;highlighter-rouge&quot;&gt;javascript
-{
-	&quot;shell_cmd&quot;: &quot;coffee -c $file&quot;,
-	&quot;selector&quot;: &quot;source.js&quot;
-}
-&lt;/code&gt;
-#### Grunt
-&lt;code class=&quot;highlighter-rouge&quot;&gt;javascript
-{
-    &quot;shell_cmd&quot;: &quot;grunt --no-color&quot;,
-    &quot;selector&quot;: [&quot;source.js&quot;, &quot;source.less&quot;, &quot;source.json&quot;]
-}
-&lt;/code&gt;
-#### Jade
-&lt;code class=&quot;highlighter-rouge&quot;&gt;javascript
-{
-    &quot;shell_cmd&quot;: &quot;cmd /c jade $file&quot;,
-    &quot;selector&quot;: &quot;source.jade&quot;
-}
-&lt;/code&gt;
-#### Stylus
-&lt;code class=&quot;highlighter-rouge&quot;&gt;javascript 
-{
-    &quot;shell_cmd&quot;: &quot;stylus $file&quot;,
-    &quot;selector&quot;: &quot;source.stylus&quot;
-}
-&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Creating build systems for commonly used programming languages increases productivity and automation and hence is worth a shot. For any queries related to this post, hit me a mail.&lt;/p&gt;
+&lt;h4 id=&quot;coffescript&quot;&gt;CoffeScript&lt;/h4&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;s2&quot;&gt;&quot;shell_cmd&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;coffee -c $file&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;s2&quot;&gt;&quot;selector&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;source.js&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;grunt&quot;&gt;Grunt&lt;/h4&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;shell_cmd&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;grunt --no-color&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;selector&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;source.js&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;source.less&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;source.json&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;jade&quot;&gt;Jade&lt;/h4&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;shell_cmd&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;cmd /c jade $file&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;selector&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;source.jade&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;stylus&quot;&gt;Stylus&lt;/h4&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;shell_cmd&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;stylus $file&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;selector&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;source.stylus&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Creating build systems for commonly used programming languages increases productivity and automation and hence is worth a shot. For any queries related to this post, hit me a &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#097;&amp;#115;&amp;#104;&amp;#105;&amp;#115;&amp;#104;&amp;#103;&amp;#117;&amp;#112;&amp;#116;&amp;#097;&amp;#046;&amp;#051;&amp;#049;&amp;#057;&amp;#055;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;mail&lt;/a&gt;.&lt;/p&gt;
 </description>
 				<pubDate>Sat, 18 Jun 2016 00:00:00 +0530</pubDate>
 				<link>https://thinker3197.github.io/blog/2016/06/18/build-system/</link>
