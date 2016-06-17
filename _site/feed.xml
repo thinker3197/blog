@@ -65,22 +65,5 @@
 				<guid isPermaLink="true">https://thinker3197.github.io/blog/2016/06/18/build-system/</guid>
 			</item>
 		
-			<item>
-				<title>Whats Jekyll?</title>
-        <description>&lt;p class=&quot;lead&quot;&gt; &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.&lt;/p&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It’s an immensely useful tool. Find out more by &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-				<pubDate>Tue, 07 Jun 2016 00:00:00 +0530</pubDate>
-				<link>https://thinker3197.github.io/blog/2016/06/07/whats-jekyll/</link>
-				<guid isPermaLink="true">https://thinker3197.github.io/blog/2016/06/07/whats-jekyll/</guid>
-			</item>
-		
 	</channel>
 </rss>
