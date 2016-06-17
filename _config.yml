@@ -21,6 +21,8 @@ permalink:          :year/:month/:day/:title/
 
 markdown:           kramdown
 
+future:             true 
+
 nav:
   - name:           "Posts"
     href:           ""
