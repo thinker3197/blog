@@ -2,6 +2,8 @@
 title: Sublime Build System
 ---
 
+<p class="lead"> <a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.</p>
+
 [Sublime Text](https://www.sublimetext.com/) is one of the most popular editors out there and it's loved by developers. We'll talk about sublime and it's build system today. A brief note of what build system is and how to create your own build system for any language.
 
 ## What are build systems?
