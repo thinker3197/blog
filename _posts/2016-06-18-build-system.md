@@ -2,13 +2,11 @@
 title: Sublime Build System
 ---
 
-<p class="lead"> <a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.</p>
-
 [Sublime Text](https://www.sublimetext.com/) is one of the most popular editors out there and it's loved by developers. We'll talk about sublime and it's build system today. A brief note of what build system is and how to create your own build system for any language.
 
 ## What are build systems?
 
-> Build system builds and run programs using external programs. 
+> Build system builds and run programs using external programs.
 
 Using sublime build systems we can build/run any program without leaving the editor. For understading, think of what you'll do to build a JavaScript file. You'll hop into the terminal and type in ```node yourFileName.js``` and node will build the js file for you. Sublime build system exactly do the same thing, but without having you to leave the editor. Sublime comes pre-loaded with few build systems for Python, Ruby, C++ etc. You can view them in **Tools > Build Systems** menu in sublime.
 
@@ -53,4 +51,4 @@ If you try to build a program whose build system does not exist, the sublime won
 }
 ```   
 
-Creating build systems for commonly used programming languages increases productivity and automation and hence is worth a shot. For any queries related to this post, hit me a [mail](mailto:ashishgupta.3197@gmail.com)
+Creating build systems for commonly used programming languages increases productivity and automation and hence is worth a shot. For any queries related to this post, hit me a mail.

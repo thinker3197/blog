@@ -7,9 +7,7 @@
 		
 			<item>
 				<title>Sublime Build System</title>
-        <description>&lt;p class=&quot;lead&quot;&gt; &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; is one of the most popular editors out there and it’s loved by developers. We’ll talk about sublime and it’s build system today. A brief note of what build system is and how to create your own build system for any language.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; is one of the most popular editors out there and it’s loved by developers. We’ll talk about sublime and it’s build system today. A brief note of what build system is and how to create your own build system for any language.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-are-build-systems&quot;&gt;What are build systems?&lt;/h2&gt;
 
@@ -60,7 +58,7 @@
 }
 &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Creating build systems for commonly used programming languages increases productivity and automation and hence is worth a shot. For any queries related to this post, hit me a &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#097;&amp;#115;&amp;#104;&amp;#105;&amp;#115;&amp;#104;&amp;#103;&amp;#117;&amp;#112;&amp;#116;&amp;#097;&amp;#046;&amp;#051;&amp;#049;&amp;#057;&amp;#055;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;mail&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Creating build systems for commonly used programming languages increases productivity and automation and hence is worth a shot. For any queries related to this post, hit me a mail.&lt;/p&gt;
 </description>
 				<pubDate>Sat, 18 Jun 2016 00:00:00 +0530</pubDate>
 				<link>http://thinker3197.github.io/blog/2016/06/18/build-system/</link>
