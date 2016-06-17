@@ -23,7 +23,7 @@ markdown:           kramdown
 
 nav:
   - name:           "Posts"
-    href:           "blog"
+    href:           ""
   - name:           "About"
     href:           "about"
 
