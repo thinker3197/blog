@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>Ashish</title>
-		<link>http://thinker3197.github.io/blog</link>
-		<atom:link href="http://thinker3197.github.io/blog/feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://thinker3197.github.io/blog</link>
+		<atom:link href="https://thinker3197.github.io/blog/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Sublime Build System</title>
@@ -61,8 +61,8 @@
 &lt;p&gt;Creating build systems for commonly used programming languages increases productivity and automation and hence is worth a shot. For any queries related to this post, hit me a mail.&lt;/p&gt;
 </description>
 				<pubDate>Sat, 18 Jun 2016 00:00:00 +0530</pubDate>
-				<link>http://thinker3197.github.io/blog/2016/06/18/build-system/</link>
-				<guid isPermaLink="true">http://thinker3197.github.io/blog/2016/06/18/build-system/</guid>
+				<link>https://thinker3197.github.io/blog/2016/06/18/build-system/</link>
+				<guid isPermaLink="true">https://thinker3197.github.io/blog/2016/06/18/build-system/</guid>
 			</item>
 		
 			<item>
@@ -78,8 +78,8 @@
 &lt;p&gt;It’s an immensely useful tool. Find out more by &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
 				<pubDate>Tue, 07 Jun 2016 00:00:00 +0530</pubDate>
-				<link>http://thinker3197.github.io/blog/2016/06/07/whats-jekyll/</link>
-				<guid isPermaLink="true">http://thinker3197.github.io/blog/2016/06/07/whats-jekyll/</guid>
+				<link>https://thinker3197.github.io/blog/2016/06/07/whats-jekyll/</link>
+				<guid isPermaLink="true">https://thinker3197.github.io/blog/2016/06/07/whats-jekyll/</guid>
 			</item>
 		
 	</channel>
