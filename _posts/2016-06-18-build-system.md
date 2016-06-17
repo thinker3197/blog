@@ -22,33 +22,41 @@ If you try to build a program whose build system does not exist, the sublime won
 	"selector": "source.js"
 }
 ```
+
 #### CoffeScript
+
 ```javascript
 {
 	"shell_cmd": "coffee -c $file",
 	"selector": "source.js"
 }
 ```
+
 #### Grunt
+
 ```javascript
 {
     "shell_cmd": "grunt --no-color",
     "selector": ["source.js", "source.less", "source.json"]
 }
 ```
+
 #### Jade
+
 ```javascript
 {
     "shell_cmd": "cmd /c jade $file",
     "selector": "source.jade"
 }
 ```
+
 #### Stylus
-```javascript 
+
+```javascript
 {
     "shell_cmd": "stylus $file",
     "selector": "source.stylus"
 }
-```   
+```
 
 Creating build systems for commonly used programming languages increases productivity and automation and hence is worth a shot. For any queries related to this post, hit me a mail.
