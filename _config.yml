@@ -11,7 +11,7 @@ pinterest:          "jhondoe"
 linkedin:           "ashish3197"
 facebook:           "ashish.3197"
 
-background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
+background:         "https://s-media-cache-ak0.pinimg.com/736x/cb/4c/e5/cb4ce5f8e6b99e65dede33a8ad531c07.jpg"
 
 paginate:           5
 paginate_path:      "/page:num/"
