@@ -59,4 +59,4 @@ If you try to build a program whose build system does not exist, the sublime won
 }
 ```
 
-Creating build systems for commonly used programming languages increases productivity and automation and hence is worth a shot. For any queries related to this post, hit me a [mail](mailto:ashishgupta.3197@gmail.com).
+Creating build systems for commonly used programming languages increases productivity and automation and hence is worth a shot. For any queries related to this post, hit me a **[mail](mailto:ashishgupta.3197@gmail.com)**.
