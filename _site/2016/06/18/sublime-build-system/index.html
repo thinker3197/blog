@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sublime Build System</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+    <link href="http://thinker3197.github.io/blog/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://thinker3197.github.io/blog/style.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Ashish" href="/feed.xml" />
+</head>
+
+
+<body class="preload">
+    <div class="top"></div>
+    <div class="profile" style="background-image: url(https://s-media-cache-ak0.pinimg.com/736x/cb/4c/e5/cb4ce5f8e6b99e65dede33a8ad531c07.jpg);">
+        <img src="http://www.gravatar.com/avatar/de5c7e08016aeaa80d78eacbc33d60cc?s=140" class="img-circle" />
+        <h3>Ashish</h3>
+        <p>A blog about JavaScript, Design and Tools in genral</p>
+        <ul class="social">
+            
+            <a type="button" href="http://github.com/thinker3197">
+                <i class="fa fa-github"></i>
+            </a>
+             
+            <a type="button" href="http://twitter.com/thinker3197">
+                <i class="fa fa-twitter"></i>
+            </a>
+             
+            <a type="button" href="http://linkedin.com/in/ashish3197">
+                <i class="fa fa-linkedin"></i>
+            </a>
+             
+            <a type="button" href="https://plus.google.com/+AshishGupta3197">
+                <i class="fa fa-google-plus"></i>
+            </a>
+             
+            <a type="button" href="http://facebook.com/ashish.3197">
+                <i class="fa fa-facebook"></i>
+            </a>
+            
+        </ul>
+    </div>
+    <div class="posts">
+        <header class="head">
+  <h1 class="head-title">
+    <a href="/">Ashish</a>
+  </h1>
+</header>
+
+
+<div class="content post">
+  <h1 class="post-title">Sublime Build System</h1>
+  <div class="post-date">
+    <time>18 Jun 2016</time>
+  </div>
+  <p><a href="https://www.sublimetext.com/">Sublime Text</a> is one of the most popular editors out there and it’s loved by developers. We’ll talk about sublime and it’s build system today. A brief note of what build system is and how to create your own build system for any language.</p>
+
+<h2 id="what-are-build-systems">What are build systems?</h2>
+
+<blockquote>
+  <p>Build system builds and run programs using external programs.</p>
+</blockquote>
+
+<p>Using sublime build systems we can build/run any program without leaving the editor. For understading, think of what you’ll do to build a JavaScript file. You’ll hop into the terminal and type in <code class="highlighter-rouge">node yourFileName.js</code> and node will build the js file for you. Sublime build system exactly do the same thing, but without having you to leave the editor. Sublime comes pre-loaded with few build systems for Python, Ruby, C++ etc. You can view them in <strong>Tools &gt; Build Systems</strong> menu in sublime.</p>
+
+<h2 id="creating-a-build-system">Creating a build system</h2>
+
+<p>If you try to build a program whose build system does not exist, the sublime won’t be able to build it. This is beacuse sublime dosen’t know which program to choose to build this particular file. Hence by <strong>Creating a build system</strong>, we aim to tell sublime to use a particular program to build a certain type of file. To create a build system for any language in sublime go to <strong>Tools &gt; Build System &gt; New Build System</strong>. In sublime build system files are stored with extension <code class="highlighter-rouge">.sublime-build</code>. For an example I’ll create build system for for a few languages. All we need to create a build system is write the shell command that is needed to build that file and the selector that will let sublime know to use this build system on what kind of files.</p>
+
+<h4 id="javascript">JavaScript</h4>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="p">{</span>
+	<span class="s2">"shell_cmd"</span><span class="err">:</span> <span class="s2">"node $file"</span><span class="p">,</span>
+	<span class="s2">"selector"</span><span class="err">:</span> <span class="s2">"source.js"</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+<p>#### CoffeScript
+<code class="highlighter-rouge">javascript
+{
+	"shell_cmd": "coffee -c $file",
+	"selector": "source.js"
+}
+</code>
+#### Grunt
+<code class="highlighter-rouge">javascript
+{
+    "shell_cmd": "grunt --no-color",
+    "selector": ["source.js", "source.less", "source.json"]
+}
+</code>
+#### Jade
+<code class="highlighter-rouge">javascript
+{
+    "shell_cmd": "cmd /c jade $file",
+    "selector": "source.jade"
+}
+</code>
+#### Stylus
+<code class="highlighter-rouge">javascript 
+{
+    "shell_cmd": "stylus $file",
+    "selector": "source.stylus"
+}
+</code></p>
+
+<p>Creating build systems for commonly used programming languages increases productivity and automation and hence is worth a shot. For any queries related to this post, hit me a <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#097;&#115;&#104;&#105;&#115;&#104;&#103;&#117;&#112;&#116;&#097;&#046;&#051;&#049;&#057;&#055;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">mail</a></p>
+
+</div>
+
+    </div>
+</body>
+<script type="text/javascript">
+     window.onload = function(){
+         document.getElementsByTagName("BODY")[0].classList.remove("preload");
+     }
+</script>
+<html>
