@@ -241,9 +241,6 @@ pre code {
     margin-left: -2vw;
     font-size: 1.5em;
     margin-right: 6vw;
-    a {
-        color: #CFD8DC;
-    }
     @media (min-width: 38em) {
         font-size: 2vw;
         margin-left: 0;
@@ -331,6 +328,9 @@ tbody tr:nth-child(odd) th {
         margin-left: 25vw;
         height: auto;
         width: 100%;
+        a {
+            color: #CFD8DC;
+        }
     }
     @media (min-width: 38em) {
         position: fixed;
