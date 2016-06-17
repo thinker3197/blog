@@ -1,16 +1,15 @@
-name:               "Ink"
-description:        "A minimalistic jekyll theme for humans"
+name:               "Ashish"
+description:        "A blog about JavaScript, Design and Tools in genral"
 
-url:                "http://thinker3197.github.io/ink"
+url:                "http://thinker3197.github.io/blog"
 author:             "thinker3197"
-email:              "jhondoe@abc.com"
+email:              "ashishgupta.3197@gmail.com"
 gravatar_hash:      "de5c7e08016aeaa80d78eacbc33d60cc"
-twitter:            "jhondoe"
-email:              "jhondoe@abc.com"
-github:             "jhondoe"
+twitter:            "Ashishgupta3197"
+github:             "thinker3197"
 pinterest:          "jhondoe"
-linkedin:           "jhondoe"
-facebook:           "jhondoe"
+linkedin:           "ashish3197"
+facebook:           "ashish.3197"
 
 background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
 
@@ -23,10 +22,10 @@ permalink:          :year/:month/:day/:title/
 markdown:           kramdown
 
 nav:
+  - name:           "Posts"
+    href:           "blog"
   - name:           "About"
     href:           "about"
-  - name:           "Download"
-    href:           "releases"
 
 sass:
   style:            :compressed
